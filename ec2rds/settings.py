@@ -136,9 +136,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
  
 # CORS configuration (do not allow all origins)
 # Add your allowed frontend origins here, e.g.:
-CORS_ALLOWED_ORIGINS = [
-    "*"
-]
 
 CORS_ALLOW_ALL_ORIGINS = True
 # If you need to allow specific local origins during development, uncomment and edit above.
